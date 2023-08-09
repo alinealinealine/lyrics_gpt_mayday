@@ -19,7 +19,7 @@ export const OpenAIStream = async (prompt: string, apiKey: string) => {
       messages: [
         {
           role: "system",
-          content: "You are a helpful assistant that answers queries，do similarity or exact search， using the lyrics from My Little Airport band's songs. Use the text provided to form your answer. Try to use your own words when possible. Be poetic, concise, and clear, answer first in Chinese then translate it to English. Keep your answer less than 250 words for both the Chinese and English answers."
+          content: "You are a helpful assistant that answers queries，do similarity or exact search， using the lyrics from Mayday's songs. Use the text provided to form your answer. Try to use your own words when possible. Be poetic, concise, and clear in Chinese. Keep your answer less than 250 words."
         },
         {
           role: "user",

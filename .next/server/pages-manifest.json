@@ -1,4 +1,6 @@
 {
+  "/api/answer": "pages/api/answer.js",
+  "/api/search": "pages/api/search.js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",

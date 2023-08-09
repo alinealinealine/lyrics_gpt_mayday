@@ -7,19 +7,18 @@ export const Navbar: FC = () => {
       <div className="font-bold text-2xl flex items-center">
         <a
           className="hover:opacity-50"
-          href="https://mla_lyrics.vercel.app"
         >
-          My Little Aiport GPT
+          Mayday GPT
         </a>
       </div>
       <div>
         <a
           className="flex items-center hover:opacity-50"
-          href="https://genius.com/artists/My-little-airport"
+          href="https://music.apple.com/us/artist/mayday/369211611"
           target="_blank"
           rel="noreferrer"
         >
-          <div className="hidden sm:flex">My Little Airport</div>
+          <div className="hidden sm:flex">Mayday</div>
 
           <IconExternalLink
             className="ml-1"
