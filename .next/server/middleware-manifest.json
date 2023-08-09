@@ -4,6 +4,7 @@
   "functions": {
     "/api/answer": {
       "env": [
+        "OPENAI_API_KEY",
         "SUPABASE_SERVICE_ROLE_KEY"
       ],
       "files": [

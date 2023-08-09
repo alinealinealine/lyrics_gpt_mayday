@@ -6,10 +6,10 @@ export const config = {
 
 const handler = async (req: Request): Promise<Response> => {
   try {
-    const { prompt, apiKey } = (await req.json()) as {
-      prompt: string;
-      apiKey: string;
-    };
+    const { prompt } = (await req.json()) as { prompt: string };
+
+    // Use the API key from environment variables
+    const apiKey = process.env.OPENAI_API_KEY;
 
     const stream = await OpenAIStream(prompt, apiKey);
 
