@@ -9,7 +9,7 @@ const handler = async (req: Request): Promise<Response> => {
     const { prompt } = (await req.json()) as { prompt: string };
 
     // Use the API key from environment variables
-    const apiKey = process.env.OPENAI_API_KEY;
+    const apiKey = process.env.OPENAI_API_KEY as string;
 
     const stream = await OpenAIStream(prompt, apiKey);
 
